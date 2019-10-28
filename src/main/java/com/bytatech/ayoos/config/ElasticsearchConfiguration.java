@@ -17,7 +17,7 @@ public class ElasticsearchConfiguration {
 	 
     @Value("${elasticsearch.host}")
     private String host;
-    @Value("${elasticsearch.port:9243}")
+    @Value("${elasticsearch.port}")
     private int port;
     @Value("${elasticsearch.username}")
     private String userName;

@@ -32,6 +32,8 @@ public class WorkPlace implements Serializable {
     private String location;
 
     private String locationName;
+    
+	private Doctor doctor;
     public String getLocationName() {
 		return locationName;
 	}
@@ -40,7 +42,7 @@ public class WorkPlace implements Serializable {
 		this.locationName = locationName;
 	}
 
-	private Doctor doctor;
+
 
     private Set<SessionInfo> sessionInfos = new HashSet<>();
     // jhipster-needle-entity-add-field - JHipster will add fields here, do not remove
